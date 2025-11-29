@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "https://rbb-backend.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://rbb-backend.onrender.com/api";
 
 export const api = axios.create({
   baseURL: API_BASE
